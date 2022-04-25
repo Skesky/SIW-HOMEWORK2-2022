@@ -1,0 +1,85 @@
+body{
+  width: 90%;
+  margin: 0 auto;
+  background-color: #14213D
+}
+
+a{
+  color: #0A9396;
+  font-weight: bold;
+}
+
+a:visited{
+  color: #E07A5F;
+}
+
+#pm-name{
+  color: #6A040F;
+  font-style: bold;
+  font-family: Georgia;
+  text-align: center;
+}
+
+img{
+  width: 100%;
+}
+
+#flex-container{
+  display: flex;
+  color: #FFFFFF;
+}
+
+#research{
+  margin-left: 10%;
+}
+
+#personal-data{
+  width: 40%;
+  text-align: center;
+}
+
+#didattica{
+  text-align: center;
+  color: white;
+}
+
+#flex-didattica{
+  display: flex;
+  justify-content: space-around;
+  color: #FFFFFF;
+}
+
+.didattica{
+  border-color: #FFC300;
+  text-align: left;
+  padding: 5%;
+}
+
+#attivita{
+  border-right: solid;
+  border-width: 1px;
+  border-color: #FFC300;
+  margin: 10px;
+  margin-right: 0px;
+  width: 50%;
+}
+
+#tesi_tirocini{
+  border-left: solid;
+  border-width: 1px;
+  border-color: #FFC300;
+  margin: 10px;
+  margin-left: 5px;
+  width: 50%;
+}
+
+#other-activities{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  border: 0.5px dashed;
+  border-color: #FFC300;
+  margin-bottom: 10%;
+  color: #FFFFFF;
+}
